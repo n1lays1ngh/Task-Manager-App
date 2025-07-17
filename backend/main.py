@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from backend.models import Task,TaskCreate,TaskUpdate
+from models import Task,TaskCreate,TaskUpdate
 from typing import List
 from fastapi import HTTPException
-from backend.db import conn,cursor
+from db import conn,cursor
 
 app = FastAPI()
 
